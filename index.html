@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Renuka Devi Subramanian - AI Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-100 text-gray-800">
+  <!-- Header Section without background image -->
+  <header class="text-white p-8">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-4xl font-bold">Renuka Devi Subramanian</h1>
+      <nav>
+        <ul class="flex space-x-8">
+          <li><a href="#about" class="hover:text-blue-400">About</a></li>
+          <li><a href="#skills" class="hover:text-blue-400">Skills</a></li>
+          <li><a href="#projects" class="hover:text-blue-400">Projects</a></li>
+          <li><a href="#certifications" class="hover:text-blue-400">Certifications</a></li>
+          <li><a href="#internships" class="hover:text-blue-400">Internship</a></li>
+          <li><a href="#contact" class="hover:text-blue-400">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- About Section with Profile Photo on the Left -->
+<section id="about" class="py-16 px-8 bg-white">
+  <div class="container mx-auto flex flex-col md:flex-row items-center md:items-start">
+    <!-- Profile Picture on Left -->
+    <div class="w-40 h-40 md:w-60 md:h-60 mb-8 md:mb-0">
+      <img src="images/profile-photo.jpg" alt="Profile Photo" class="w-full h-full rounded-full border-4 border-blue-600 object-cover">
+    </div>
+
+    <!-- About Content on Right -->
+    <div class="md:ml-8 max-w-3xl">
+  <h2 class="text-xl font-semibold text-blue-900">About Me</h2>
+  <p class="mt-4 text-lg text-gray-800 max-w-3xl mx-auto md:mx-0">I am an AI & Data Science enthusiast with a deep passion for creating intelligent systems that solve real-world problems. I have hands-on experience with building machine learning models, natural language processing, and deploying AI solutions. I am constantly seeking new challenges to improve my skills and make a meaningful impact in the AI field.</p>
+
+      <!-- Skills -->
+      <h2 id="skills" class="text-xl font-semibold text-blue-900 mt-10 mb-4">Skills</h2>
+      <ul class="list-disc list-inside mt-2 text-lg text-gray-700 space-y-2">
+        <li>Python, Java, C</li>
+        <li>SQL & Database Management</li>
+        <li>Machine Learning </li>
+        <li>Data Visualization (Pandas, NumPy, Matplotlib, Seaborn,Tableau/PowerBI, Plotly)</li>
+        <li>Cloud & Deployment (AWS, Railway, Render, GitHub Actions)</li>
+        <li> Version Controls (Git and GitHub)</li>
+      </ul>
+
+      <!-- Expertise -->
+      <h2 class="text-xl font-semibold text-blue-900 mt-10 mb-4">Expertise</h2>
+      <p class="mt-2 text-lg text-gray-700">I specialize in building AI-powered solutions by integrating machine learning models with real-world applications. My expertise spans across data preprocessing, model development, and deployment, with hands-on experience in natural language processing, generative AI, and automation tools. I focus on creating efficient, scalable, and user-friendly systems that solve practical problems and enhance decision-making.</p>
+
+      <!-- Career Goal -->
+      <h2 class="text-xl font-semibold text-blue-900 mt-10 mb-4">Career Goal</h2>
+      <p class="mt-2 text-lg text-gray-700">My goal is to become an expert in Artificial Intelligence and contribute to building scalable, ethical, and innovative AI solutions that will shape the future of technology. I am driven by the idea of using AI to automate processes and bring human-like intelligence to machines.</p>
+
+      <!-- Interests -->
+      <h2 class="text-xl font-semibold text-blue-900 mt-10 mb-4">Interests</h2>
+      <p class="mt-2 text-lg text-gray-700">I enjoy reading about emerging technologies, experimenting with new programming languages, and exploring the intersection of AI and healthcare. I also love traveling, photography, and pspending quality time with my family.</p>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- Projects Section -->
+<section id="projects" class="py-16 px-8 bg-gray-100">
+  <div class="container mx-auto text-center">
+    <h2 class="text-3xl font-semibold text-blue-900">Projects</h2>
+    <div class="mt-8 grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+      <!-- Project Card 1 -->
+      <div class="bg-white p-6 rounded-2xl shadow-md border-2 border-blue-900 cursor-pointer project-card"
+           data-demo="images/project1-demo.png">
+        <h3 class="text-xl font-semibold text-blue-800">AI Career Assistant Toolkit</h3>
+        <p class="mt-2 text-gray-600">
+          An intelligent toolkit that streamlines the hiring process by combining a Resume Screener, AI Interview Classifier, and LinkedIn Analyzer. It leverages machine learning and NLP to evaluate resumes, analyze interview responses, and extract insights from LinkedIn profiles, helping candidates and recruiters make smarter career decisions.
+        </p>
+      </div>
+
+      <!-- Project Card 2 -->
+      <div class="bg-white p-6 rounded-2xl shadow-md border-2 border-blue-900 cursor-pointer project-card"
+           data-demo="images/project2-demo.png">
+        <h3 class="text-xl font-semibold text-blue-800">AI News Bot</h3>
+        <p class="mt-2 text-gray-600">
+          AI News Bot – An automated Telegram bot that fetches and delivers the latest AI-related news every few hours. Built with Python, Feedparser, and Telegram API, it keeps users updated with real-time AI developments through seamless scheduling and deployment. 
+        </p>
+      </div>
+
+      <!-- Project Card 3 -->
+      <div class="bg-white p-6 rounded-2xl shadow-md border-2 border-blue-900 cursor-pointer project-card"
+           data-demo="images/project3-demo.png">
+        <h3 class="text-xl font-semibold text-blue-800">AI Legal Document Analyzer and Summarizer</h3>
+        <p class="mt-2 text-gray-600">An AI-powered tool that analyzes legal documents by extracting text, identifying document types, and generating concise summaries. It detects risky clauses (like termination terms, payment penalties, or confidentiality obligations) using natural language processing, explains them in plain English, and provides actionable recommendations. The user-friendly interface displays results with visual risk indicators and allows downloading analysis reports, making complex legal documents accessible to non-experts.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+  <!-- Certifications Section -->
+<section id="certifications" class="py-16 px-8 bg-white">
+  <div class="container mx-auto text-center">
+    <h2 class="text-3xl font-semibold text-blue-900">Certifications</h2>
+    <div class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8">
+
+      <!-- Certification Card -->
+      <div class="certification-card bg-white p-6 rounded-lg shadow-md border-2 border-blue-900 cursor-pointer"
+           data-image="D:\ai-portfolio\images/ai-ml-course.jpg">
+        <h3 class="text-xl font-semibold text-blue-900">Summer course on Artificial Intelligence and Machine Learning</h3>
+        <p class="mt-4 text-gray-700">DR.Mahalingam College Of Engineering and Technology, Pollachi</p>
+      </div>
+
+      <div class="certification-card bg-white p-6 rounded-lg shadow-md border-2 border-blue-900 cursor-pointer"
+           data-image="D:\ai-portfolio\images/powerbi-workshop.jpg">
+        <h3 class="text-xl font-semibold text-blue-900">Workshop on PowerBI</h3>
+        <p class="mt-4 text-gray-700">Office Master</p>
+      </div>
+
+      <div class="certification-card bg-white p-6 rounded-lg shadow-md border-2 border-blue-900 cursor-pointer"
+           data-image="D:\ai-portfolio\images/data-analytics.jpg">
+        <h3 class="text-xl font-semibold text-blue-900">Masterclass in Data Analytics</h3>
+        <p class="mt-4 text-gray-700">NoviTech R&D, Pvt. Ltd</p>
+      </div>
+
+      <div class="certification-card bg-white p-6 rounded-lg shadow-md border-2 border-blue-900 cursor-pointer"
+           data-image="D:\ai-portfolio\images/data-science-training.jpg">
+        <h3 class="text-xl font-semibold text-blue-900">Technical Training on Data Science</h3>
+        <p class="mt-4 text-gray-700">NoviTech R&D, Pvt. Ltd</p>
+      </div>
+
+      <div class="certification-card bg-white p-6 rounded-lg shadow-md border-2 border-blue-900 cursor-pointer"
+           data-image="D:\ai-portfolio\images/ai-for-all.jpg">
+        <h3 class="text-xl font-semibold text-blue-900">Course on Artificial Intelligence for all</h3>
+        <p class="mt-4 text-gray-700">Infosys Springboard</p>
+      </div>
+
+      <div class="certification-card bg-white p-6 rounded-lg shadow-md border-2 border-blue-900 cursor-pointer"
+           data-image="D:\ai-portfolio\images/ml-workshop.jpg">
+        <h3 class="text-xl font-semibold text-blue-900">Workshop on Make your first ML Model</h3>
+        <p class="mt-4 text-gray-700">Hindusthan College of Engineering and Technology</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Modal for Certificate Preview -->
+<div id="certificateModal" class="fixed inset-0 bg-black bg-opacity-70 hidden flex items-center justify-center z-50">
+  <div class="relative bg-white rounded-lg shadow-lg max-w-3xl w-full">
+    <button id="closeModal" class="absolute top-2 right-2 text-2xl font-bold text-gray-700 hover:text-red-600">&times;</button>
+    <img id="certificateImage" src="" alt="Certificate" class="rounded-lg max-h-[80vh] mx-auto">
+  </div>
+</div>
+
+<!-- Modal for Project Preview -->
+<div id="projectModal" class="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center hidden z-50">
+  <div class="bg-white p-4 rounded-lg shadow-lg relative max-w-3xl mx-auto">
+    <button id="closeProjectModal" class="absolute top-2 right-2 text-2xl font-bold text-gray-600 hover:text-gray-900">&times;</button>
+    <img id="projectImage" src="" alt="Project Demo" class="rounded-lg max-h-[60vh] max-w-[70vw] object-contain mx-auto style="max-width: 400px; max-height: 500px; width: auto; height: auto; display: block; margin: 0 auto;">
+    <video id="projectVideo" class="rounded-lg max-h-[80vh] hidden" controls></video>
+  </div>
+</div>
+
+
+<!-- Script -->
+<script>
+  document.querySelectorAll('.certification-card').forEach(card => {
+    card.addEventListener('click', function() {
+      const imageSrc = this.getAttribute('data-image');
+      document.getElementById('certificateImage').src = imageSrc;
+      document.getElementById('certificateModal').classList.remove('hidden');
+    });
+  });
+
+  document.getElementById('closeModal').addEventListener('click', function() {
+    document.getElementById('certificateModal').classList.add('hidden');
+  });
+
+  // Close modal on outside click
+  document.getElementById('certificateModal').addEventListener('click', function(e) {
+    if (e.target === this) {
+      this.classList.add('hidden');
+    }
+  });
+</script>
+
+<script>
+  const projectCards = document.querySelectorAll(".project-card");
+  const projectModal = document.getElementById("projectModal");
+  const projectImage = document.getElementById("projectImage");
+  const projectVideo = document.getElementById("projectVideo");
+  const closeProjectModal = document.getElementById("closeProjectModal");
+
+  projectCards.forEach(card => {
+    card.addEventListener("click", () => {
+      const demoSrc = card.getAttribute("data-demo");
+
+      if (demoSrc.endsWith(".mp4")) {
+        projectVideo.src = demoSrc;
+        projectVideo.classList.remove("hidden");
+        projectImage.classList.add("hidden");
+      } else {
+        projectImage.src = demoSrc;
+        projectImage.classList.remove("hidden");
+        projectVideo.classList.add("hidden");
+      }
+
+      projectModal.classList.remove("hidden");
+    });
+  });
+
+  closeProjectModal.addEventListener("click", () => {
+    projectModal.classList.add("hidden");
+    projectVideo.pause(); // Stop video when closing
+  });
+
+  // Close when clicking outside content
+  projectModal.addEventListener("click", (e) => {
+    if (e.target === projectModal) {
+      projectModal.classList.add("hidden");
+      projectVideo.pause();
+    }
+  });
+</script>
+
+
+
+<!-- Internship Section -->
+<section id="internships" class="py-16 px-8 bg-white">
+  <div class="container mx-auto text-center">
+    <h2 class="text-3xl font-semibold text-blue-900">Internship Experience</h2>
+    <div class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div class="internship-card bg-white p-6 rounded-lg shadow-md border-2 border-blue-900">
+        <h3 class="text-xl font-semibold text-blue-900">Internship at TechVolt Software Pvt, Ltd</h3>
+        <p class="mt-4 text-gray-700">Worked on analysing and visualizing real-world datasets.</p>
+      </div>
+      <div class="internship-card bg-white p-6 rounded-lg shadow-md border-2 border-blue-900">
+        <h3 class="text-xl font-semibold text-blue-900">Internship at ZettaStack Systems India, Pvt, Ltd</h3>
+        <p class="mt-4 text-gray-700">Built machine learning models.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+      <!-- Resume Section --> <section id="resume" class="py-16 px-8 bg-gray-100"> <div class="container mx-auto text-center"> <h2 class="text-3xl font-semibold text-blue-900">Resume</h2> <div class="mt-4 text-lg text-gray-700"> <p>Below is my detailed resume. Feel free to check it out:</p> </div> <!-- Direct Link to Resume PDF --> <a href="resume.pdf" target="_blank" class="inline-block mt-6 px-6 py-3 border-2 border-blue-900 text-blue-900 bg-white rounded-lg font-semibold hover:bg-blue-900 hover:text-white transition"> View Resume </a> <p class="mt-4">Or download it directly:</p> <a href="resume.pdf" download class="inline-block mt-6 px-6 py-3 border-2 border-blue-900 text-blue-900 bg-white rounded-lg font-semibold hover:bg-blue-900 hover:text-white transition"> Download Resume </a> </div> </section> 
+<!-- Contact Section -->
+<section id="contact">
+  <h2>Contact Me</h2>
+  <form action="https://formspree.io/f/xpwjjnwr" method="POST" class="contact-form">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+
+<!-- Chatbot Button -->
+<div id="chatbot-icon" class="fixed bottom-6 right-6 w-14 h-14 bg-blue-900 text-white rounded-full flex items-center justify-center cursor-pointer shadow-lg hover:bg-blue-700 z-50">
+  🤖
+</div>
+
+<!-- Chatbot Window -->
+<div id="chatbot-box" class="fixed bottom-20 right-6 w-80 h-[500px] bg-white rounded-xl shadow-xl hidden flex flex-col z-50">
+  <!-- Chat Header -->
+  <div class="flex justify-between items-center bg-blue-900 text-white px-4 py-3 rounded-t-xl">
+    <span class="font-semibold">AI Assistant</span>
+    <button id="closeChat" class="font-bold text-lg hover:text-red-400">&times;</button>
+  </div>
+
+  <!-- Chat Body -->
+  <div id="chat-body" class="flex-1 p-4 overflow-y-auto space-y-3 bg-gray-50">
+    <div class="text-gray-700 italic">Hello! I am your AI Assistant 😊</div>
+  </div>
+
+  <!-- Chat Input -->
+  <div class="flex p-3 border-t border-gray-200">
+    <input id="chatMessage" type="text" placeholder="Type a message..." class="flex-1 border rounded-l-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-600">
+    <button id="sendBtn" class="bg-blue-900 text-white px-4 rounded-r-lg hover:bg-blue-700">Send</button>
+  </div>
+</div>
+
+<script>
+  const chatbotIcon = document.getElementById("chatbot-icon");
+  const chatbotBox = document.getElementById("chatbot-box");
+  const closeChat = document.getElementById("closeChat");
+  const chatBody = document.getElementById("chat-body");
+  const chatMessage = document.getElementById("chatMessage");
+  const sendBtn = document.getElementById("sendBtn");
+
+  // Toggle chatbot open/close
+  chatbotIcon.addEventListener("click", () => {
+    chatbotBox.style.display = chatbotBox.style.display === "flex" ? "none" : "flex";
+  });
+
+  // Close chatbot
+  closeChat.addEventListener("click", () => {
+    chatbotBox.style.display = "none";
+  });
+
+  // Function to get bot response based on user message
+  function getBotResponse(msg) {
+    msg = msg.toLowerCase();
+    if (msg.includes("hello") || msg.includes("hi")) {
+      return "Hi there! How can I help you today?";
+    } else if (msg.includes("name")) {
+      return "I am your AI Assistant 😊";
+    } else if (msg.includes("skills")) {
+      return "I am skilled in Python, Machine Learning, NLP, Data Science, and AI deployment!";
+    } else if (msg.includes("projects")) {
+      return "I have worked on AI Career Assistant Toolkit, AI News Bot, and other AI projects.";
+    } else if (msg.includes("contact")) {
+      return "You can reach out via the Contact section below.";
+    } else {
+      return "Sorry, I didn't understand that. Can you ask something else?";
+    }
+  }
+
+  // Function to send message
+  function sendMessage() {
+    const message = chatMessage.value.trim();
+    if (message === "") return;
+
+    // User message
+    const userDiv = document.createElement("div");
+    userDiv.className = "user-msg bg-blue-100 text-blue-800 p-2 rounded-lg max-w-[70%] ml-auto";
+    userDiv.textContent = message;
+    chatBody.appendChild(userDiv);
+
+    // Bot message
+    const botDiv = document.createElement("div");
+    botDiv.className = "bot-msg bg-gray-200 text-gray-900 p-2 rounded-lg max-w-[70%] mr-auto";
+    botDiv.textContent = getBotResponse(message);
+    chatBody.appendChild(botDiv);
+
+    // Scroll to bottom
+    chatBody.scrollTop = chatBody.scrollHeight;
+
+    // Clear input
+    chatMessage.value = "";
+  }
+
+  // Button click
+  sendBtn.addEventListener("click", sendMessage);
+
+  // Enter key
+  chatMessage.addEventListener("keypress", (e) => {
+    if (e.key === "Enter") {
+      e.preventDefault(); // prevent form submission
+      sendMessage();
+    }
+  });
+</script>
+</body>
